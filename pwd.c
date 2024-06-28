@@ -9,7 +9,7 @@
 int main()
 {
     char working_directory[1024];
-    if (getcwd(file_path, sizeof(working_directory)) != NULL)
+    if (getcwd(working_directory, sizeof(working_directory)) != NULL)
         printf("%s\n", working_directory);
     else{
     perror("getcwd() erorr ";)
