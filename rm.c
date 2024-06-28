@@ -17,7 +17,6 @@ int main(int argc,char *argv[])
         perror("rm");
         return 1;
     }
-    remove(argv[1]);
 
     return 0;
 }
