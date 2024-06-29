@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+    Simulates the behavior of the 'cat' command in Linux
+    cat file.txt
+    read and output the content of a file to the standard output (usually the terminal)
+*/
+
 int main(int argc, char *argv[])
 {
     if (argc < 2)
