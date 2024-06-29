@@ -25,9 +25,14 @@ int main(int argc,char *argv[])
     FILE *destination = fopen(argv[2], "wb");
     if (destination == NULL)
     {
-        perror("Error opening destination file");
-        fclose(source);
-        return 1;
+        // If destination file doesn't exist, create a new file
+        destination = fopen(argv[2], "wb");
+        if (destination == NULL) {
+            perror("Error creating destination file");
+            fclose(source);
+            return 1;
+        }
+        
     }
 
     char buffer[size];
