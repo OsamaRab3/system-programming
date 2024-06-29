@@ -28,7 +28,11 @@ System programming involves developing software that directly interacts with the
 - **echo**: Display a line of text.
 - **nano**: Terminal-based text editor
 - **touch**: Create new empty files.
- - **wc**: Count words, lines, and characters in files
+- **wc**: Count words, lines, and characters in files
+- **mkdir**:  Creates a new directory.
+- **date**:  Display the current date and time
+- **sleep**:  Pause the execution of a program for a specified number of seconds.
+
 ## Installation
 
 To run the programs in this repository, you'll need a Linux environment with a C compiler installed, such as GCC.
