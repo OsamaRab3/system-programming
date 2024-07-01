@@ -32,6 +32,9 @@ System programming involves developing software that directly interacts with the
 - **mkdir**:  Creates a new directory.
 - **date**:  Display the current date and time
 - **sleep**:  Pause the execution of a program for a specified number of seconds.
+- **chmod**: Changes the permissions of a file or directory to the specified mode.
+- **uname**: Get basic information about the OS
+- **clear**: Clear terminal
 
 ## Installation
 
