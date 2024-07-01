@@ -12,7 +12,7 @@ int main()
     if (getcwd(working_directory, sizeof(working_directory)) != NULL)
         printf("%s\n", working_directory);
     else{
-    perror("getcwd() erorr ";)
+    perror("getcwd() erorr ");
     return 1;
     }
 
